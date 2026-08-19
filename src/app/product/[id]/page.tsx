@@ -72,7 +72,7 @@ export default function ProductPage({ params }: ProductPageProps) {
                                 >
                                     {product.category === "boots" ? "🥾" :
                                         product.category === "loafers" ? "👞" :
-                                            product.category === "apparel" ? "👖" : "👟"}
+                                            "👟"}
                                 </motion.span>
                             </div>
 
